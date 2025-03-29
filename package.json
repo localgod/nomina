@@ -1,0 +1,35 @@
+{
+  "name": "nomina",
+  "version": "0.0.1",
+  "description": "TypeScript console app for organizing and renaming photos and videos in Google Drive and Google Photos",
+  "main": "./dist/nomia.mjs",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "exec": "node ./dist/nomia.mjs",
+    "lint": "npx eslint ./src --ignore-pattern 'dist/*' ",
+    "lintfix": "npx eslint . --ignore-pattern 'dist/*'  --fix ./src",
+    "mdlint": "markdownlint '**/*.md' --ignore node_modules --ignore slides --disable MD033 MD013 MD041"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/localgod/nomina.git"
+  },
+  "author": "Johannes Skov Frandsen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/localgod/nomina/issues"
+  },
+  "homepage": "https://github.com/localgod/nomina#readme",
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
+    "@types/node": "^22.13.14",
+    "googleapis": "^105.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.23.0",
+    "eslint": "^9.23.0",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.28.0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es2024",
+        "module": "ESNext",
+        "lib": [
+            "ES2024"
+        ],
+        "outDir": "./dist",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "moduleResolution": "Node",
+        "resolveJsonModule": true,
+    },
+    "include": [
+        "./**/*"
+    ]
+}

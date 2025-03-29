@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/localgod/nomina#readme",
   "dependencies": {
-    "@google-cloud/local-auth": "^2.1.0",
+    "@google-cloud/local-auth": "^3.0.1",
     "@types/node": "^22.13.14",
     "googleapis": "^105.0.0"
   },

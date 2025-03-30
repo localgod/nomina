@@ -4,6 +4,10 @@ tasks:
     init: |
       source /home/gitpod/.bashrc
       fnm install --latest
+  - name: Setup libheif
+    before: sudo apt update
+    init: |
+      sudo apt install -y libheif-dev
   - name: Setup nomia
     init: npm install --location=global npm@latest typescript@latest markdownlint-cli@latest 
   - name: Setup nomia

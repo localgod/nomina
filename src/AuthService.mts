@@ -6,7 +6,10 @@ import { google } from 'googleapis';
 import { OAuth2Client } from 'google-auth-library';
 
 export class AuthService {
-    private static SCOPES: string[] = ['https://www.googleapis.com/auth/drive.metadata.readonly'];
+    private static SCOPES: string[] = [
+        'https://www.googleapis.com/auth/drive.metadata.readonly',
+        'https://www.googleapis.com/auth/drive.readonly'
+    ];
     private static TOKEN_PATH: string = path.join(process.cwd(), 'token.json');
     private static CREDENTIALS_PATH: string = path.join(process.cwd(), 'credentials.json');
 

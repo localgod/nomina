@@ -26,7 +26,8 @@
     "@google-cloud/vision": "^5.1.0",
     "@types/node": "^22.13.14",
     "google-auth-library": "^9.15.1",
-    "googleapis": "^148.0.0"
+    "googleapis": "^148.0.0",
+    "sharp": "^0.33.5"
   },
   "devDependencies": {
     "@eslint/js": "^9.23.0",

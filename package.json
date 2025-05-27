@@ -27,7 +27,7 @@
     "@types/node": "^22.15.21",
     "google-auth-library": "^9.15.1",
     "googleapis": "^149.0.0",
-    "sharp": "^0.34.1"
+    "sharp": "^0.34.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.1",

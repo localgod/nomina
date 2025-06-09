@@ -26,7 +26,7 @@
     "@google-cloud/vision": "^5.1.0",
     "@types/node": "^22.15.29",
     "google-auth-library": "^9.15.1",
-    "googleapis": "^149.0.0",
+    "googleapis": "^150.0.1",
     "sharp": "^0.34.2"
   },
   "devDependencies": {
